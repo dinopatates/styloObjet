@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <div class="penBar">
+            <div class="penContainer">
+                <div class="colorPicker">
+                    <label class="">
+                        <input class="colorInput" type="color">
+                    </label>
+                </div>
+
+                <div class="inkBarContainer">
+                    <progress class="inkBar" value="100" max="100"></progress>
+                    Ink Level
+                </div>
+                <button class="refillButton">Refill Ink</button>
+
+                <input class="textInput" type="text" name="" id="writtenText">
+
+                <label class="switch">
+                    <input id="capSwitch" type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+
+                <button id="write">Write</button>
+            </div>
+        </div>
+        <div class="writingPart">
+
+        </div>
+    </main>
+</body>
+<script src="mainV2.js"></script>
+
+</html>
